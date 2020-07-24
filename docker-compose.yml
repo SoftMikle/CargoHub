@@ -56,7 +56,7 @@ services:
       - back
 
   front:
-    image: jcksnroot/cargo-front:1.0.0
+    image: jcksnroot/cargo-front:1.0.1
     container_name: ui-cargo
     stdin_open: true
     tty: true
